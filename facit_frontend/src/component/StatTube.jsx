@@ -133,7 +133,7 @@ const StatTube = ({ target, label, height, color, suffix = "", className = "" })
 
        
       </motion.div>
-      
+
       <div className="absolute inset-0 flex flex-col items-center z-10 mt-5  px-[4%]">
         <h2 className="font-bold text-5xl text-white drop-shadow-md">
           {count}
