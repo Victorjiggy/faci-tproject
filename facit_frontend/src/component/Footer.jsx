@@ -8,8 +8,7 @@ function Footer() {
       <div className="bg-[#0B0735] rounded-[28px] overflow-hidden">
 
         <div className="max-w-[1600px] mx-auto px-6 sm:px-10 lg:px-20 pt-16 sm:pt-20 pb-12 sm:pb-16">
-
-          {/* ================= TOP ================= */}
+            
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.3fr_0.7fr_0.7fr] gap-12 lg:gap-20">
 
             {/* LEFT */}
@@ -95,11 +94,8 @@ function Footer() {
             </div>
 
           </div>
-
-          {/* ================= LINE ================= */}
           <div className="h-px bg-white mt-16 sm:mt-20 lg:mt-24" />
-
-          {/* ================= BOTTOM ================= */}
+       
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 pt-8 sm:pt-12 text-center lg:text-left">
 
             <p className="text-white text-base sm:text-[18px]">

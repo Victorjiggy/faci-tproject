@@ -7,7 +7,6 @@ function Home() {
   return (
     <main>
       
-      {/* ================= HERO SECTION ================= */}
       <section className="py-20 lg:py-18 h-auto lg:h-screen items-center">
         <div className="max-w-full mx-[5%] px-1">
 
@@ -58,7 +57,6 @@ function Home() {
 
             </div>
 
-            {/* RIGHT IMAGE (UNCHANGED ON DESKTOP) */}
             <div className="flex justify-center lg:justify-end">
               <img
                 src={img}
@@ -78,13 +76,11 @@ function Home() {
         </div>
       </section>
 
-      {/* ================= STATS SECTION ================= */}
       <section className="bg-[#eef0fa] pt-[7%] mb-[7%]">
         <div className="max-w-full mx-[5%] px-1">
 
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.3fr] gap-7 lg:gap-[10px] md:gap-[30px] items-center">
             
-            {/* LEFT TEXT (UNCHANGED DESKTOP) */}
             <div className="mb-10 lg:mb-[5%] text-center lg:text-left">
 
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium text-[#0b0627] leading-tight">

@@ -62,7 +62,6 @@ const StatTube = ({ target, label, height, color, suffix = "", className = "" })
  ${className}
 `}
     >
-      {/* ===== GLASS REFLECTION ===== */}
       <div className="absolute inset-0">
         <div className="absolute w-full h-full bg-gradient-to-br from-white/40 via-transparent to-transparent" />
         <div className="absolute left-0 top-0 w-1/3 h-full bg-white/10 blur-sm" />
@@ -93,7 +92,6 @@ const StatTube = ({ target, label, height, color, suffix = "", className = "" })
         )}
       </AnimatePresence>
 
-      {/* ===== LIQUID ===== */}
       <motion.div
         initial={{ height: 0 }}
         whileInView={{ height: "100%" }}
@@ -117,7 +115,6 @@ const StatTube = ({ target, label, height, color, suffix = "", className = "" })
           </div>
         )}
 
-        {/* ===== SURFACE WAVE ===== */}
         <motion.div
           animate={{
             x: [0, -35, 0],
@@ -132,13 +129,11 @@ const StatTube = ({ target, label, height, color, suffix = "", className = "" })
 
         
 
-         {/*light reflection */}
         <div className="absolute top-0 left-1/2 w-1/3 h-full bg-white/20 blur-sm" />
 
        
       </motion.div>
-
-      {/* ===== CONTENT ===== */}
+      
       <div className="absolute inset-0 flex flex-col items-center z-10 mt-5  px-[4%]">
         <h2 className="font-bold text-5xl text-white drop-shadow-md">
           {count}
